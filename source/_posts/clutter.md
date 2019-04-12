@@ -1,7 +1,7 @@
 ---
 title: 杂烩 Screen MariaDB mock mysql gitlab 允许MySqlWorkbench访问数据库 ...
-date: 2019-03-01
-tags:
+date: 2019-04-01
+tags: shell
 ---
 
 ### 安装数据库
@@ -183,3 +183,45 @@ mysql>GRANT   ALL   PRIVILEGES   ON   *.*   TO   'root'@'%'   WITH   GRANT   OPT
 mysql>FLUSH   PRIVILEGES  //修改生效
 mysql>EXIT  //退出MySQL服务器
 ````
+
+
+
+
+
+```
+场景：
+无hexo这个命令
+只能/data/www/node-v8.4.0-linux-x64/bin/hexo这样执行该命令
+
+解决：
+vi /etc/profile
+export PATH=$PATH:/data/www/node-v8.4.0-linux-x64/bin/
+source /etc/profile
+```
+
+```
+远程复制：
+scp md.zip root@192.168.258.126:/home/sww 
+
+移动：
+mv md.zip /data/www/sww/
+
+解压：
+unzip md.zip
+```
+
+```
+跟踪日志：
+tailf /data/logs/nginx/error_sww.log
+
+执行过的命令记录：
+history
+```
+
+```
+ssh-keygen生成git ssh密钥:
+cd ~/.ssh
+ssh-keygen -t rsa -C "happysww1230@163.com"
+密钥会包含id_rsa和id_rsa.pub两个文件，分别表示生成的私钥和公钥
+使用cat ~/.ssh/id_rsa.pub命令，并将相应内容复制到源代码管理服务器即可实现git的无密码管理
+```

@@ -1,7 +1,7 @@
 ---
 title: Hexo + github 搭建个人博客
 date: 2019-04-09
-tags:
+tags: blog
 ---
 
 ### 一. 在github上先创建2个库

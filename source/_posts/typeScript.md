@@ -1,7 +1,7 @@
 ---
 title: typeScript
 date: 2019-04-05
-tags:
+tags: js
 ---
 
 > 什么是 TypeScript？

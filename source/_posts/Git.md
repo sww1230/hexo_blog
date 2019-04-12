@@ -1,7 +1,7 @@
 ---
 title: Git常用命令
 date: 2019-03-25
-tags:
+tags: git
 ---
 
 ## 参考文档

@@ -1,7 +1,7 @@
 ---
 title: vs code 配置及插件
 date: 2019-03-25
-tags:
+tags: vsCode
 ---
 
 #### 推荐使用vs code进行前端编码，规定Tab大小为2个空格

@@ -1,7 +1,7 @@
 ---
 title: Sass 是对 CSS 的扩展，让 CSS 语言更强大、优雅
 date: 2019-03-05
-tags:
+tags: css
 ---
 
 ### 主要功能
