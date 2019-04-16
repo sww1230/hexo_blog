@@ -138,3 +138,18 @@ tags: js
     return false
   }
   ````
+
+  9.**滚动到窗口底部时加载数据**
+  ```` javascript
+  handleScroll(){
+    if(this.reloading){ // 是否可能加载数据
+      var wScrollY = window.scrollY; // 当前滚动条位置  
+      var wInnerH = window.innerHeight; // 设备窗口的高度（不会变）  
+      var bScrollH = document.body.scrollHeight; // 滚动条总高度      
+      if (wScrollY + wInnerH >= bScrollH) {
+        this.reloading = false 
+        this.reloadCount++   // 监听加载的次数时开始请求，请求成功后设置reloading:true，实现再次滚动到底部时加载
+      }
+    }
+  }
+  ````

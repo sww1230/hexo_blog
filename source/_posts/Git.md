@@ -10,6 +10,15 @@ tags: git
 * [git分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html)
 * [git checkout命令详解](http://www.tuicool.com/articles/A3Mn6f)
 
+## 初始并配置
+````
+	git init
+	git config --global user.name "sww1230"
+	git config --global user.email sww1230@163.com
+
+	git config --list // 检查配置信息
+````
+
 ## 工作流
 * [Git 怎样保证fork出来的project和原project（上游项目）同步更新](http://www.tuicool.com/articles/Mnmmqyi)
 	1. 在 Fork 的代码库中添加上游代码库的 remote 源，该操作只需操作一次即可。如: 其中# upstream 表示上游代码库名， 可以任意。
