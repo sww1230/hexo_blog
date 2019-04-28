@@ -2,6 +2,7 @@
 title: 前端开发思考
 date: 2019-04-12
 tags: blog
+comments: true
 ---
 
 ### 目录
